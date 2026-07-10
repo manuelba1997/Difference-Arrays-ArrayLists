@@ -5,34 +5,34 @@ public class Main {
     public static void main(String[] args) {
 
         //ARRAY
-        // Un array tiene un tamaño fijo.
+        // An array has a fixed size.
         String[] arrayNames = new String[3];
-        // Los elementos del array se asignan usando índices.
+        // the array elements are assigned using an index.
         arrayNames[0] = "Ana";
         arrayNames[1] = "Luis";
         arrayNames[2] = "Carlos";
         System.out.println("Array elements:");
-        // Los arrays utilizan .length para obtener su tamaño.
+        // the arrays use the .lenght method to get the size
         for (int i = 0; i < arrayNames.length; i++) {
             System.out.println(arrayNames[i]);
         }
         System.out.println();
         // ARRAYLIST
-        // Un ArrayList puede aumentar o reducir su tamaño.
+        // An arrayList can increase or reduce their size
         ArrayList<String> arrayListNames = new ArrayList<>();
-        // add() agrega nuevos elementos.
+        // The add() method add a new element to the array.
         arrayListNames.add("Ana");
         arrayListNames.add("Luis");
         arrayListNames.add("Carlos");
-        // El ArrayList puede continuar creciendo.
+        // the array list can keep increasing
         arrayListNames.add("Pedro");
-        // set() modifica un elemento existente.
+        // the set() method modifies an element that is already in the array
         arrayListNames.set(0, "Maria");
-        // remove() elimina un elemento.
-        arrayListNames.remove("Luis"); 
+        //the remove() method delete an element in the array.
+        arrayListNames.remove("Luis");
         System.out.println("ArrayList elements:");
-        // Los ArrayList utilizan size() para obtener su tamaño
-        // y get() para acceder a sus elementos.
+        // The arryList use the size() method to know how many element has it
+        // and the get() method is used to access the array elements
         for (int i = 0; i < arrayListNames.size(); i++) {
             System.out.println(arrayListNames.get(i));
         }
